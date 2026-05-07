@@ -2276,7 +2276,7 @@ parse_args() {
     git remote | grep -q "${target//./}" && git fetch "${target//./}"
     gd "${target}" ${side_by_side:+"${side_by_side}"}
 
-    _info "CONDENSED GIT DIFF"
+    _info "CONDENSED GIT DIFF" ""
     GIT_PAGER="" git diff "${target}" --compact-summary
 
     exit
