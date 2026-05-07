@@ -2393,16 +2393,10 @@ WHAT'S DIFFERENT
 -------------------------------------------------------------------------------${C_RESET}
 
 ${C_WHITE}# Diff your dotfriedrice-config vs the local dotfriedrice-config.example.
-${C_GREEN}dotfriedrice diff-config
-
-${C_WHITE}# The same as above but show the diff in side-by-side (split) mode.
-${C_GREEN}dotfriedrice diff-config --side
+${C_GREEN}dotfriedrice diff-config ${C_CYAN}[--side]${C_RESET}
 
 ${C_WHITE}# Diff any local uncommited or committed changes vs the remote, defaults to "origin".
-${C_GREEN}dotfriedrice diff ${C_CYAN}[TARGET]${C_RESET}
-
-${C_WHITE}# The same as above but show the diff in side-by-side (split) mode.
-${C_GREEN}dotfriedrice diff --side
+${C_GREEN}dotfriedrice diff ${C_CYAN}[TARGET] [--side]${C_RESET}
 
 ${C_WHITE}# Compare your currently checked out branch to your local ${DOTFRIEDRICE_BRANCH} branch, this
 # could be helpful if you have a personalized branch and you pull updates into
