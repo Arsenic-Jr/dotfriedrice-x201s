@@ -166,7 +166,7 @@ ISO](https://fastly.mirror.pkgbuild.com/iso/latest/) and then run the official
 [archinstall](https://wiki.archlinux.org/title/Archinstall) script. There is a
 [FAQ item covering that](#how-to-install-arch-linux) with video guides.
 
-### 🔌 On an existing system (native Linux, WSL 2 or macOS)?
+### 🔌 On an existing system (WSL 2, macOS or native Linux)?
 
 **For the command line version**, it's unlikely you'll run into any conflicts
 when installing DotFriedRice.
