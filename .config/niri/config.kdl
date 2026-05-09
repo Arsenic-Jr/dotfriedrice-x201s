@@ -200,6 +200,7 @@ binds {
     Mod+Alt+N            hotkey-overlay-title="Notes" { spawn "dfr-launch-or-focus-tui" "notes"; }
     Mod+Alt+Shift+N      hotkey-overlay-title="Notes (directory)" { spawn-sh "dfr-launch-or-focus-tui ${EDITOR} ${NOTES_DIRECTORY}"; }
     Mod+Alt+P            hotkey-overlay-title="Passwords" { spawn "dfr-launch-or-focus" "keepassxc"; }
+    Mod+Alt+Shift+P      hotkey-overlay-title="Generate random password to clipboard" { spawn "pw"; }
     Mod+Alt+M            hotkey-overlay-title="Music" { spawn "dfr-launch-or-focus-tui" "rmpc"; }
     Mod+Alt+B            hotkey-overlay-title="Browser" { spawn "firefox"; }
     Mod+Alt+Shift+B      hotkey-overlay-title="Browser (private)" { spawn "firefox" "-private-window"; }
