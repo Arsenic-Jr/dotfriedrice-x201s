@@ -1,5 +1,5 @@
 # shellcheck shell=bash
-
+export MESA_LOADER_DRIVER_OVERRIDE=crocus
 # Load colors so we can access $fg and more.
 autoload -U colors && colors
 
