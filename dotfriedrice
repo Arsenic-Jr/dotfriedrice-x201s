@@ -908,8 +908,8 @@ EOF
       PACKAGES_PACMAN+=("intel-media-driver")
       ;;
    *2nd\ Generation* | *3rd\ Generation* | *GMA* | *Core\ processor*)
-export MESA_LOADER_DRIVER_OVERRIDE=crocus
       PACKAGES_PACMAN+=("libva-intel-driver")
+      export MESA_LOADER_DRIVER_OVERRIDE=crocus
       ;;
     *)
       cat <<EOF
