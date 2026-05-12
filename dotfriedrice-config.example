@@ -30,7 +30,7 @@ export YOUR_EMAIL=
 # When set to "1", niri and graphical apps will be installed if you're using an
 # Arch based Linux distro. This is always skipped in WSL and in containers.
 export GUI_LINUX="0"
-
+export MESA_LOADER_DRIVER_OVERRIDE=crocus
 # -----------------------------------------------------------------------------
 # XDG directories
 # -----------------------------------------------------------------------------
